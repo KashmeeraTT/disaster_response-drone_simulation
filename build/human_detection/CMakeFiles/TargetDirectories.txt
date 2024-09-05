@@ -1,0 +1,9 @@
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/install/strip.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/install/local.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/install.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/list_install_components.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/rebuild_cache.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/edit_cache.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/test.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/human_detection_uninstall.dir
+/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/uninstall.dir

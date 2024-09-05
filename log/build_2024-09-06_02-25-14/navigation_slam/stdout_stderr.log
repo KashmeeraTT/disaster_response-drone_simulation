@@ -1,0 +1,43 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)
+-- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+
+-- Build files have been written to: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+-- Install configuration: ""
+-- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch
+-- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/slam_launch.py
+-- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/gazebo_world.launch.py
+CMake Error at cmake_install.cmake:45 (file):
+  file INSTALL cannot find
+  "/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam/scripts/slam_node.py":
+  No such file or directory.
+
+

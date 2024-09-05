@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="disaster_world">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <!-- Complex disaster environment -->
+    <include>
+      <uri>model://collapsed_building</uri>
+      <pose>1 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://fire_station</uri>
+      <pose>10 5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://ambulance</uri>
+      <pose>5 10 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://fallen_tree</uri>
+      <pose>15 20 0 0 0 0</pose>
+    </include>
+
+    <light name="point_light" type="point">
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>1.0 1.0 1.0 1.0</diffuse>
+      <attenuation>
+        <range>100</range>
+        <constant>0.1</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+    </light>
+  </world>
+</sdf>

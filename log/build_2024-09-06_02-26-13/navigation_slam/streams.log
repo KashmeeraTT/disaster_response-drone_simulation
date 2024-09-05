@@ -1,0 +1,39 @@
+[0.014s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[0.032s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.047s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.171s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.193s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.194s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.307s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.396s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.469s] -- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)
+[0.470s] -- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)
+[0.889s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.023s] -- Configuring done
+[1.026s] -- Generating done
+[1.027s] -- Build files have been written to: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+[1.047s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '0': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[1.076s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+[1.083s] -- Install configuration: ""
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/slam_launch.py
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/gazebo_world.launch.py
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/lib/navigation_slam/slam_node.py
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/ament_index/resource_index/package_run_dependencies/navigation_slam
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/ament_index/resource_index/parent_prefix_path/navigation_slam
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/environment/ament_prefix_path.sh
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/environment/ament_prefix_path.dsv
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/environment/path.sh
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/environment/path.dsv
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/local_setup.bash
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/local_setup.sh
+[1.083s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/local_setup.zsh
+[1.083s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/local_setup.dsv
+[1.084s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/package.dsv
+[1.084s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/ament_index/resource_index/packages/navigation_slam
+[1.084s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/cmake/navigation_slamConfig.cmake
+[1.084s] -- Up-to-date: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/cmake/navigation_slamConfig-version.cmake
+[1.084s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/package.xml
+[1.085s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '0': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam

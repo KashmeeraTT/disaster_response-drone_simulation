@@ -1,0 +1,49 @@
+[0.015s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam
+[0.024s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.040s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.164s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.217s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.272s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.293s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.350s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.392s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.394s] -- Looking for pthread.h
+[0.445s] -- Looking for pthread.h - found
+[0.445s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.493s] -- Looking for pthread_create in pthreads
+[0.533s] -- Looking for pthread_create in pthreads - not found
+[0.534s] -- Looking for pthread_create in pthread
+[0.577s] -- Looking for pthread_create in pthread - found
+[0.578s] -- Found Threads: TRUE  
+[0.689s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.765s] -- Found nav2_map_server: 0.4.7 (/opt/ros/foxy/share/nav2_map_server/cmake)
+[0.767s] -- Found nav2_util: 0.4.7 (/opt/ros/foxy/share/nav2_util/cmake)
+[1.223s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.225s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.365s] -- Configuring done
+[1.367s] -- Generating done
+[1.368s] CMake Warning:
+[1.368s]   Manually-specified variables were not used by the project:
+[1.368s] 
+[1.368s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.368s] 
+[1.368s] 
+[1.368s] -- Build files have been written to: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+[1.376s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '0': /usr/bin/cmake /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam
+[1.377s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[1.403s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '0': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[1.431s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+[1.437s] -- Install configuration: ""
+[1.437s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch
+[1.437s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/slam_launch.py
+[1.437s] -- Installing: /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam/share/navigation_slam/launch/launch/gazebo_world.launch.py
+[1.438s] CMake Error at cmake_install.cmake:45 (file):
+[1.438s]   file INSTALL cannot find
+[1.438s]   "/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam/scripts/slam_node.py":
+[1.438s]   No such file or directory.
+[1.438s] 
+[1.438s] 
+[1.439s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '1': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam

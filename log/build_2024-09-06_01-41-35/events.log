@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (human_detection) JobQueued: {'identifier': 'human_detection', 'dependencies': OrderedDict()}
+[0.000237] (navigation_slam) JobQueued: {'identifier': 'navigation_slam', 'dependencies': OrderedDict()}
+[0.000482] (human_detection) JobStarted: {'identifier': 'human_detection'}
+[0.004655] (navigation_slam) JobStarted: {'identifier': 'navigation_slam'}
+[0.008171] (human_detection) JobProgress: {'identifier': 'human_detection', 'progress': 'cmake'}
+[0.008307] (human_detection) Command: {'cmd': ['/usr/bin/cmake', '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/human_detection', '-DCMAKE_INSTALL_PREFIX=/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/human_detection'], 'cwd': '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tishan-kashmeera'), ('LC_TIME', 'si_LK'), ('SSH_AGENT_PID', '1524'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/tishan-kashmeera'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('MANAGERPID', '1378'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9429e290f5e53353a741f6466d9fef3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'tishan-kashmeera'), ('JOURNAL_STREAM', '8:38735'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tishan-kashmeera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tishan-kashmeera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/laptop:@/tmp/.ICE-unix/1562,unix/laptop:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', 'df15640167e141899406202cb712653f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99b78613_892b_4b68_be55_e52ba11d9d69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.323'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9429e290f5e53353a741f6466d9fef3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.011313] (navigation_slam) JobProgress: {'identifier': 'navigation_slam', 'progress': 'cmake'}
+[0.011525] (navigation_slam) Command: {'cmd': ['/usr/bin/cmake', '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam', '-DCMAKE_INSTALL_PREFIX=/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/install/navigation_slam'], 'cwd': '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tishan-kashmeera'), ('LC_TIME', 'si_LK'), ('SSH_AGENT_PID', '1524'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('HOME', '/home/tishan-kashmeera'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('MANAGERPID', '1378'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9429e290f5e53353a741f6466d9fef3'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('LOGNAME', 'tishan-kashmeera'), ('JOURNAL_STREAM', '8:38735'), ('_', '/usr/bin/colcon'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tishan-kashmeera'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/tishan-kashmeera/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/laptop:@/tmp/.ICE-unix/1562,unix/laptop:/tmp/.ICE-unix/1562'), ('INVOCATION_ID', 'df15640167e141899406202cb712653f'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/99b78613_892b_4b68_be55_e52ba11d9d69'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.323'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=c9429e290f5e53353a741f6466d9fef3'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6003')]), 'shell': False}
+[0.060222] (human_detection) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.060994] (navigation_slam) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.097920] (human_detection) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.099824] (-) TimerEvent: {}
+[0.099952] (navigation_slam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.102607] (human_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.103161] (navigation_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.146028] (human_detection) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.146303] (navigation_slam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.146943] (navigation_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.146994] (human_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.188893] (navigation_slam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.189118] (human_detection) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.196243] (navigation_slam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.196679] (navigation_slam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.198854] (navigation_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.199911] (-) TimerEvent: {}
+[0.201357] (human_detection) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.201589] (human_detection) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.204196] (human_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.247857] (navigation_slam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.248616] (navigation_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.254453] (human_detection) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.255135] (human_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.297049] (navigation_slam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.300006] (-) TimerEvent: {}
+[0.304034] (human_detection) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.309431] (navigation_slam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.310006] (navigation_slam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.316934] (human_detection) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.317412] (human_detection) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.320832] (navigation_slam) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.320937] (navigation_slam) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.320986] (navigation_slam) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.321025] (navigation_slam) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.321093] (navigation_slam) StderrLine: {'line': b'\n'}
+[0.321154] (navigation_slam) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.321215] (navigation_slam) StderrLine: {'line': b'  any of the following names:\n'}
+[0.321275] (navigation_slam) StderrLine: {'line': b'\n'}
+[0.321333] (navigation_slam) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.321390] (navigation_slam) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.321448] (navigation_slam) StderrLine: {'line': b'\n'}
+[0.321506] (navigation_slam) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.321565] (navigation_slam) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.321622] (navigation_slam) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.321679] (navigation_slam) StderrLine: {'line': b'  has been installed.\n'}
+[0.321716] (navigation_slam) StderrLine: {'line': b'\n'}
+[0.321752] (navigation_slam) StderrLine: {'line': b'\n'}
+[0.321787] (navigation_slam) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.321827] (navigation_slam) StdoutLine: {'line': b'See also "/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam/CMakeFiles/CMakeOutput.log".\n'}
+[0.323909] (navigation_slam) CommandEnded: {'returncode': 1}
+[0.326845] (human_detection) StderrLine: {'line': b'CMake Error at CMakeLists.txt:19 (find_package):\n'}
+[0.327145] (human_detection) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.327237] (human_detection) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.327302] (human_detection) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.327362] (human_detection) StderrLine: {'line': b'\n'}
+[0.327424] (human_detection) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.327482] (human_detection) StderrLine: {'line': b'  any of the following names:\n'}
+[0.327534] (human_detection) StderrLine: {'line': b'\n'}
+[0.327599] (human_detection) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.327646] (human_detection) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.327687] (human_detection) StderrLine: {'line': b'\n'}
+[0.327726] (human_detection) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.327765] (human_detection) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.327804] (human_detection) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.327841] (human_detection) StderrLine: {'line': b'  has been installed.\n'}
+[0.327881] (human_detection) StderrLine: {'line': b'\n'}
+[0.327917] (human_detection) StderrLine: {'line': b'\n'}
+[0.327954] (human_detection) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.328007] (human_detection) StdoutLine: {'line': b'See also "/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/human_detection/CMakeFiles/CMakeOutput.log".\n'}
+[0.328985] (human_detection) CommandEnded: {'returncode': 1}
+[0.341522] (navigation_slam) JobEnded: {'identifier': 'navigation_slam', 'rc': 1}
+[0.342118] (human_detection) JobEnded: {'identifier': 'human_detection', 'rc': 'SIGINT'}
+[0.352436] (-) EventReactorShutdown: {}

@@ -1,0 +1,24 @@
+disaster_response_drone_simulation/
+├── src/
+│   ├── ros2/
+│   │   ├── navigation_slam/
+│   │   │   ├── src/
+│   │   │   │   └── slam_node.py                # Python code for SLAM
+│   │   │   ├── CMakeLists.txt
+│   │   │   └── package.xml
+│   │   └── human_detection/
+│   │       ├── src/
+│   │       │   └── human_detection_node.py     # Python code for human detection
+│   │       ├── CMakeLists.txt
+│   │       └── package.xml
+├── configs/
+│   ├── slam_config.yaml                        # Configuration files for SLAM
+│   └── nav2_params.yaml                        # Navigation parameter configuration
+├── worlds/
+│   └── disaster_world.world                    # Gazebo world file (complex disaster environment)
+├── launch/
+│   ├── gazebo_world.launch.py                  # Launch Gazebo with specified world
+│   ├── slam_launch.py                          # Launch SLAM and navigation
+│   ├── human_detection_launch.py               # Launch human detection node
+│   └── simulation_launch.py                    # Main launch file to include all nodes
+└── README.md

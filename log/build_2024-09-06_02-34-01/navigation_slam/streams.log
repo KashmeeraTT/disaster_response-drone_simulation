@@ -1,0 +1,11 @@
+[0.015s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[0.043s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '0': /usr/bin/cmake --build /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam -- -j8 -l8
+[0.077s] Invoking command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
+[0.083s] -- Install configuration: ""
+[0.083s] CMake Error at cmake_install.cmake:41 (file):
+[0.083s]   file INSTALL cannot find
+[0.083s]   "/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/src/ros2/navigation_slam/launch":
+[0.083s]   No such file or directory.
+[0.083s] 
+[0.083s] 
+[0.084s] Invoked command in '/home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam' returned '1': /usr/bin/cmake --install /home/tishan-kashmeera/Desktop/disaster_response-drone_simulation/build/navigation_slam
